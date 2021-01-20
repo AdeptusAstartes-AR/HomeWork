@@ -15,3 +15,4 @@ d = {
 }
 text = f" Дорогой {d['name']}  {d['midname']}, баланс вашего лицевого счета составлет {d['balance']} руб."
 print(text)
+print(text)
