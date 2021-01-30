@@ -1,3 +1,4 @@
+# f форматирование к разным классам
 """
 name = 'Семен'
 midname = "Семенович"
@@ -16,6 +17,7 @@ d = {
 text = f" Дорогой {d['name']}  {d['midname']}, баланс вашего лицевого счета составлет {d.get('balance')} руб."
 print(text)
 """
+"""
 gender = {
     'm': 'Дорогой',
     'f': 'Дорогая'
@@ -28,3 +30,9 @@ a = (
 for name, midname, balance, gen in a:
     text = f" {gender[gen]} {name}  {midname}, баланс вашего лицевого счета составлет {balance} руб."
     print(text)
+"""
+import time
+import numpy as np
+
+
+
