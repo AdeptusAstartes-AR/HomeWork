@@ -1,3 +1,4 @@
+
 price_rub = 1500
 #eur_cost = float(input('Введите курс евро'))
 eur_cost = 88
